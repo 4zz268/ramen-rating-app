@@ -1,0 +1,99 @@
+body {
+  font-family: HelveticaNeue, Arial, sans-serif;
+  text-align: center;
+  padding: 20px; 
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery img { 
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #000;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+#Ramen-details {
+  margin-bottom: 20px;
+}
+
+#Ramen-details img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+h1 {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block; 
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#add-ramen {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add-ramen input,
+#add-ramen textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#add-ramen input[type="text"],
+#add-ramen input[type="number"],
+#add-ramen input[type="url"] {
+  border: 1px solid #add8e6;
+  outline-color: #87ceeb;
+}
+
+#add-ramen button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#add-ramen button:hover {
+  background-color: #333333;
+}
